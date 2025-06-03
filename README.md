@@ -1,1 +1,1 @@
-<video src="ruta/del/VideoEjemplo.mp4" controls width="600"></video>
+<video src="/VideoEjemplo.mp4" controls width="600"></video>

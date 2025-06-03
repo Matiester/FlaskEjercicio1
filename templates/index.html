@@ -44,11 +44,11 @@
     comandoSelect.addEventListener('change', function() {
       if (this.value === 'setpoint') {
         setpointDiv.style.display = 'block';
-        setpointInput.required = true; // Hacerlo requerido si es visible
+        setpointInput.required = true; 
       } else {
         setpointDiv.style.display = 'none';
-        setpointInput.required = false; // No requerido si está oculto
-        setpointInput.value = ''; // Limpiar valor si se oculta
+        setpointInput.required = false; 
+        setpointInput.value = ''; 
       }
     });
   });
